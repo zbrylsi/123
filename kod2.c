@@ -12,6 +12,8 @@ int main(void)
         printf("Podaj liczbe 2:");
         scanf("%d",&liczba2);
         fflush(stdin);
+        
+        printf("wynik to: %d\n", liczba1 ,liczba2);
 
         return 0;
         system("pause");
